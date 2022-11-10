@@ -2,7 +2,9 @@ package org.allvehicle;
 //QUESTION 9: part no:01
 
 import java.awt.List;
+import java.util.LinkedHashMap;
 import java.util.LinkedList;
+import java.util.Map;
 
 import org.fourwheeler.FourWheeler;
 import org.threewheeler.ThreeWheeler;
@@ -21,7 +23,9 @@ public class Vehicle {
 		FourWheeler fw=new FourWheeler();
 		e.VehicleNecessery();
 		java.util.List<String> li = new LinkedList<String>();
+		Map<String,String> m = new LinkedHashMap<String,String>();
 		li.add("mani");
+		m.put("mani", "1136");
 		t.bike();
 		t.cycle();
 		tw.auto();
