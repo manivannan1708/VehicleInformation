@@ -23,6 +23,7 @@ public class Vehicle {
 		fw.bus();
 		fw.car();
 		fw.lorry();
+		System.out.println(t);
 
 	}
 
