@@ -2,7 +2,9 @@ package org.allvehicle;
 //QUESTION 9: part no:01
 
 import java.awt.List;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
+import java.util.Set;
 
 import org.fourwheeler.FourWheeler;
 import org.threewheeler.ThreeWheeler;
@@ -20,7 +22,7 @@ public class Vehicle {
 		ThreeWheeler tw= new ThreeWheeler();
 		FourWheeler fw=new FourWheeler();
 		e.VehicleNecessery();
-		java.util.List<String> li = new LinkedList<String>();
+		Set<String> li = new LinkedHashSet<String>();
 		li.add("mani");
 		t.bike();
 		t.cycle();
